@@ -5,10 +5,6 @@ from langchain.tools import tool
 from dotenv import load_dotenv
 import os
 from datascraping import get_driver
-from datascraping import scrape_about
-from datascraping import scrape_contact
-from datascraping import scrape_courses
-from datascraping import scrape_internship
 
 load_dotenv()
 driver=get_driver()
@@ -38,23 +34,50 @@ if "page" not in st.session_state:
 @tool
 def internship_info(expression: str) -> str:
     """
-    Returns scraped internship information as text.
+    Returns internship-related information in short bullet points.
     """
     try:
-        return "Sunbeam internship programs include AI, Data Science, Java, and DevOps."
-    except:
-        return "Error: Information not Found!"
+        file = read_file_content(
+            r"E:/GIT Repos/GenAI_Project/datascraping.txt"
+        )
+
+        llm_input = f"""
+        Data:
+        {file}
+
+        Question:
+        {expression}
+
+        Instructions:
+        - Give 3–4 bullet points.
+        - Use ONLY the data above.
+        - Give Specific points for example 
+           Course name: ...
+           Fees: ...
+           Batch: ...
+           Starting date: ...
+        """
+
+        output = llm.invoke(llm_input)
+        return output.content
+
+    except Exception:
+        return "Error: Information not found!"
 
 
+
+def read_file_content(filepath: str) -> str:
+    with open(filepath, "r") as file:
+        return file.read()
+   
 
 @tool
 def read_file(filepath: str) -> str:
     """
     Reads a text file and returns its content.
     """
-    with open(filepath, 'r') as file:
-        text = file.read()
-        return text
+    return read_file_content(filepath)
+
 
 
 # MODEL
@@ -100,20 +123,25 @@ if st.session_state.page == "home":
             {"role": "assistant", "content": llm_output.content}
         )
 
-
     #  DISPLAY CHAT HISTORY
     for message in st.session_state.messages:
         with st.chat_message(message["role"]):
             st.write(message["content"])
 
+
+
 elif st.session_state.page=="internship":
-    st.write(scrape_internship(driver))
+    data1=read_file_content(r"E:/GIT Repos/GenAI_Project/internship.txt")
+    st.write(data1)
 
 elif st.session_state.page=="courses":
-    st.write(scrape_courses(driver))
+    data2=read_file_content(r"E:/GIT Repos/GenAI_Project/courses.txt")
+    st.write(data2)
 
 elif st.session_state.page=="about_us":
-    st.write(scrape_about(driver))
+    data3=read_file_content(r"E:/GIT Repos/GenAI_Project/about.txt")
+    st.write(data3)
 
 elif st.session_state.page=="contact_us":
-    st.write(scrape_contact(driver))
+    data4=read_file_content(r"E:/GIT Repos/GenAI_Project/contact.txt")
+    st.write(data4)

@@ -306,6 +306,10 @@ def main():
     driver = get_driver()
 
     output = ""
+    output1= ""
+    output2= ""
+    output3= ""
+    output4= ""
 
     internship = scrape_internship(driver)
     about = scrape_about(driver)
@@ -329,8 +333,24 @@ def main():
     output += courses + "\n" + "=" * 100 + "\n"
     output += contact + "\n" + "=" * 100 + "\n"
 
-    driver.quit()
+    output1 += internship + "\n" + "=" * 100 + "\n"
+    output2 += about + "\n" + "=" * 100 + "\n"
+    output3 += courses + "\n" + "=" * 100 + "\n"
+    output4 += contact + "\n" + "=" * 100 + "\n"
 
+    driver.quit()
+    
+    
+    with open("internship.txt", "w", encoding="utf-8") as f:
+        f.write(output1)
+    with open("about.txt", "w", encoding="utf-8") as f:
+        f.write(output2)
+    with open("courses.txt", "w", encoding="utf-8") as f:
+        f.write(output3)
+    with open("contact.txt", "w", encoding="utf-8") as f:
+        f.write(output4)
+
+    
     with open("datascraping.txt", "w", encoding="utf-8") as f:
         f.write(output)
 

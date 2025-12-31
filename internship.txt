@@ -1,0 +1,84 @@
+INTERNSHIP PROGRAMS
+
+Internship 1
+Batch Name   : IIT-08-H-A-MERN
+Duration     : 1 Month
+Start Date   : 10-Dec-2025
+End Date     : 05-Jan-2026
+Time         : 8:00 AM  To  4:00 PM
+Fees         : Rs. 4000/-/-
+
+Internship 2
+Batch Name   : IIT-08-H-A-Android
+Duration     : 1 Month
+Start Date   : 10-Dec-2025
+End Date     : 05-Jan-2026
+Time         : 8:00 AM  To  4:00 PM
+Fees         : Rs. 4000/-
+
+Internship 3
+Batch Name   : IIT-08-H-A-Internet of Things
+Duration     : 1 Month
+Start Date   : 10-Dec-2025
+End Date     : 05-Jan-2026
+Time         : 8:00 AM  To  4:00 PM
+Fees         : Rs. 4000/-
+
+Internship 4
+Batch Name   : IIT-08-H-A-ARM Micro-controller
+Duration     : 1 Month
+Start Date   : 10-Dec-2025
+End Date     : 05-Jan-2026
+Time         : 8:00 AM  To  4:00 PM
+Fees         : Rs. 4000/-
+
+Internship 5
+Batch Name   : IIT-08-H-A-Generative AI
+Duration     : 1 Month
+Start Date   : 10-Dec-2025
+End Date     : 05-Jan-2026
+Time         : 8:00 AM  To  4:00 PM
+Fees         : Rs. 4000/-
+
+Internship 6
+Batch Name   : IIT-08-H-A-Java Programming
+Duration     : 1 Month
+Start Date   : 10-Dec-2025
+End Date     : 05-Jan-2026
+Time         : 8:00 AM  To  4:00 PM
+Fees         : Rs. 4000/-
+
+Internship 7
+Batch Name   : IIT-08-H-A-.net
+Duration     : 1 Month
+Start Date   : 10-Dec-2025
+End Date     : 05-Jan-2026
+Time         : 8:00 AM  To  4:00 PM
+Fees         : Rs. 4000/-
+
+Internship 8
+Batch Name   : IIT-08-H-A-Web Programming using Python
+Duration     : 1 Month
+Start Date   : 10-Dec-2025
+End Date     : 05-Jan-2026
+Time         : 8:00 AM  To  4:00 PM
+Fees         : Rs. 4000/-
+
+Internship 9
+Batch Name   : IIT-08-H-A-Data Science (ML)
+Duration     : 1 Month
+Start Date   : 10-Dec-2025
+End Date     : 05-Jan-2026
+Time         : 8:00 AM  To  4:00 PM
+Fees         : Rs. 4000/-
+
+Internship 10
+Batch Name   : IIT-08-H-A-Cyber Security
+Duration     : 1 Month
+Start Date   : 10-Dec-2025
+End Date     : 05-Jan-2026
+Time         : 8:00 AM  To  4:00 PM
+Fees         : Rs. 4000/-
+
+
+====================================================================================================
