@@ -79,7 +79,7 @@ COURSE 3: Aptitude Course In Pune
 Batch Schedule : 02-Feb-2026   To   23-Feb-2026
 Schedule       : Mon - Fri
 Duration       : 30 hrs.
-Timings        : 6:00 PM  To  9:00 PM
+Timings        : 5:00 PM  To  7:00 PM
 Fees           : Rs. 4000/-
 Link           : https://www.sunbeaminfo.in/modular-courses/aptitude-course-in-pune
 
@@ -154,6 +154,188 @@ Link           : https://www.sunbeaminfo.in/modular-courses/data-structure-algor
 COURSE SYLLABUS:
 
 Batch Schedule : 29-Jan-2026   To   20-Feb-2026
+
+'Sunbeam Chambers', Plot No.R/2, Market Yard Road, Behind Hotel Fulora, Gultekdi,    Pune - 411 037. MH-INDIA.
+
+"Sunbeam IT Park", Second Floor, Phase 2 of Rajiv Gandhi Infotech Park,Hinjawadi, Pune - 411057, MH-INDIA
+
+
+====================================================================================================
+COURSE 7: Dreamllm Training Institute Pune
+====================================================================================================
+
+Batch Schedule : 05-Jan-2026   To   09-Feb-2026
+Schedule       : Monday - Thursday
+Timings        : 9:00 PM  To  11:00 PM
+Link           : https://www.sunbeaminfo.in/modular-courses/dreamllm-training-institute-pune
+
+----------------------------------------------------------------------------------------------------
+
+PREREQUISITES:
+  • Syllabus:
+  • Outcomes:
+  • Capstone project:
+  • Video recording will be available till 05 June 2026 on portal
+  • Dream LLM — Course Overview
+  • MODULAR COURSES
+  • Core Java
+  • Python Development
+  • Dev Ops
+  • MERN (FULL-STACK) DEVELOPMENT
+
+----------------------------------------------------------------------------------------------------
+
+COURSE SYLLABUS:
+
+Batch Schedule : 05-Jan-2026   To   09-Feb-2026
+
+Fees : Rs. INR 20000/- 12000/-(Inc.18% GST)
+
+'Sunbeam Chambers', Plot No.R/2, Market Yard Road, Behind Hotel Fulora, Gultekdi,    Pune - 411 037. MH-INDIA.
+
+"Sunbeam IT Park", Second Floor, Phase 2 of Rajiv Gandhi Infotech Park,Hinjawadi, Pune - 411057, MH-INDIA
+
+
+====================================================================================================
+COURSE 8: Machine Learning Classes
+====================================================================================================
+
+Batch Schedule : 26-Oct-2023   To   28-Nov-2023
+Schedule       : Weekdays - (Mon -Fri)
+Duration       : 40 hrs.
+Timings        : 07:30 AM  To  9:30 AM
+Fees           : Rs. 7500/- (Inc. 18% GST)
+Link           : https://www.sunbeaminfo.in/modular-courses/machine-learning-classes
+
+----------------------------------------------------------------------------------------------------
+
+COURSE SYLLABUS:
+
+Batch Schedule : 26-Oct-2023   To   28-Nov-2023
+
+'Sunbeam Chambers', Plot No.R/2, Market Yard Road, Behind Hotel Fulora, Gultekdi,    Pune - 411 037. MH-INDIA.
+
+"Sunbeam IT Park", Second Floor, Phase 2 of Rajiv Gandhi Infotech Park,Hinjawadi, Pune - 411057, MH-INDIA
+
+
+====================================================================================================
+COURSE 9: Mastering Generative Ai
+====================================================================================================
+
+Batch Schedule : 14-Jul-2025   To   03-Sep-2025
+Schedule       : Mon - Thu
+Duration       : 60 Hrs
+Timings        : 9:00 PM  To  11:00 PM
+Fees           : Rs. 17900/-
+Link           : https://www.sunbeaminfo.in/modular-courses/mastering-generative-ai
+
+----------------------------------------------------------------------------------------------------
+
+PREREQUISITES:
+  • Student Feedback:
+  • MODULAR COURSES
+  • Core Java
+  • Python Development
+  • Dev Ops
+  • MERN (FULL-STACK) DEVELOPMENT
+  • Machine Learning
+  • Data Structures and Algorithms
+  • Mastering GenAI
+  • Aptitude
+
+----------------------------------------------------------------------------------------------------
+
+COURSE SYLLABUS:
+
+Batch Schedule : 14-Jul-2025   To   03-Sep-2025
+
+'Sunbeam Chambers', Plot No.R/2, Market Yard Road, Behind Hotel Fulora, Gultekdi,    Pune - 411 037. MH-INDIA.
+
+"Sunbeam IT Park", Second Floor, Phase 2 of Rajiv Gandhi Infotech Park,Hinjawadi, Pune - 411057, MH-INDIA
+
+
+====================================================================================================
+COURSE 10: Mern Full Stack Developer Course
+====================================================================================================
+
+Batch Schedule : 02-Jun-2025   To   03-Jul-2025
+Schedule       : Mon-Thu
+Duration       : 40 hrs.
+Timings        : 09:00 PM  To  11:00 PM
+Fees           : Rs. 9100/-
+Link           : https://www.sunbeaminfo.in/modular-courses/mern-full-stack-developer-course
+
+----------------------------------------------------------------------------------------------------
+
+COURSE SYLLABUS:
+
+Batch Schedule : 02-Jun-2025   To   03-Jul-2025
+
+'Sunbeam Chambers', Plot No.R/2, Market Yard Road, Behind Hotel Fulora, Gultekdi,    Pune - 411 037. MH-INDIA.
+
+"Sunbeam IT Park", Second Floor, Phase 2 of Rajiv Gandhi Infotech Park,Hinjawadi, Pune - 411057, MH-INDIA
+
+
+====================================================================================================
+COURSE 11: Mlops Llmops Training Institute Pune
+====================================================================================================
+
+Batch Schedule : 24-Nov-2025   To   05-Dec-2025
+Schedule       : Monday to Friday (9pm to 11pm)
+Timings        : 9:00 PM  To  11:00 PM
+Fees           : Rs. 8000/-
+Link           : https://www.sunbeaminfo.in/modular-courses/mlops-llmops-training-institute-pune
+
+----------------------------------------------------------------------------------------------------
+
+PREREQUISITES:
+  • Syllabus:
+  • VIdeo recording will be available till 05 March 2026 on SunBeam Portal
+  • MODULAR COURSES
+  • Core Java
+  • Python Development
+  • Dev Ops
+  • MERN (FULL-STACK) DEVELOPMENT
+  • Machine Learning
+  • Data Structures and Algorithms
+  • Mastering GenAI
+
+----------------------------------------------------------------------------------------------------
+
+COURSE SYLLABUS:
+
+Batch Schedule : 24-Nov-2025   To   05-Dec-2025
+
+Schedule : Monday to Friday (9pm to 11pm)
+
+Fees : Rs. 8000/- Special Offer for Sunbeam Alumni 5900
+
+'Sunbeam Chambers', Plot No.R/2, Market Yard Road, Behind Hotel Fulora, Gultekdi,    Pune - 411 037. MH-INDIA.
+
+"Sunbeam IT Park", Second Floor, Phase 2 of Rajiv Gandhi Infotech Park,Hinjawadi, Pune - 411057, MH-INDIA
+
+
+====================================================================================================
+COURSE 12: Python Classes In Pune
+====================================================================================================
+
+Batch Schedule : 23-Jan-2026   To   20-Feb-2026
+Schedule       : Mon - Fri
+Duration       : 50 hrs.
+Timings        : 8:00 AM  To  10:30 AM
+Fees           : Rs. 8100/-
+Link           : https://www.sunbeaminfo.in/modular-courses/python-classes-in-pune
+
+----------------------------------------------------------------------------------------------------
+
+PREREQUISITES:
+  • Highlights:
+
+----------------------------------------------------------------------------------------------------
+
+COURSE SYLLABUS:
+
+Batch Schedule : 23-Jan-2026   To   20-Feb-2026
 
 'Sunbeam Chambers', Plot No.R/2, Market Yard Road, Behind Hotel Fulora, Gultekdi,    Pune - 411 037. MH-INDIA.
 
