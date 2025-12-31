@@ -17,8 +17,7 @@ def get_driver():
 
     service = Service(ChromeDriverManager().install())
     return webdriver.Chrome(service=service, options=options)
-
- 
+        
 def scrape_internship(driver):
     output = "INTERNSHIP PROGRAMS\n\n"
 
@@ -80,7 +79,7 @@ def scrape_about(driver):
         output += "About content not available.\n\n"
 
     return output
- 
+
 def scrape_courses(driver):
     output = "MODULAR COURSES\n\n"
 
@@ -91,7 +90,7 @@ def scrape_courses(driver):
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
         time.sleep(3)
 
-        all_links = driver.find_elements(By.TAG_NAME, "a")
+        all_links = driver.find_elements(By.TAG_NAME,"a")
 
         course_urls = []
         seen = set()
@@ -111,7 +110,7 @@ def scrape_courses(driver):
                 course_urls.append(href)
 
             except:
-                continue
+                continue   
 
         count = 1
         for url in sorted(course_urls):
@@ -121,8 +120,7 @@ def scrape_courses(driver):
 
                 driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
                 time.sleep(2)
-
-                # ---------------- COURSE NAME (FIXED) ----------------
+ 
                 course_name = ""
                 try:
                     course_name = driver.find_element(By.TAG_NAME, "h1").text.strip()
@@ -174,8 +172,7 @@ def scrape_courses(driver):
 
                 if has_schedule:
                     output += "\n" + "-" * 100 + "\n\n"
-
-                # ---------------- PREREQUISITES ----------------
+ 
                 prereq_match = re.search(
                     r'Prerequisites?:?\s*(.*?)(?=\n(?:Section|Module|Course Content|Syllabus|What You Will Learn)|$)',
                     body_text, re.IGNORECASE | re.DOTALL
@@ -194,8 +191,7 @@ def scrape_courses(driver):
                         for line in prereq_lines[:10]:
                             output += f"  • {line}\n"
                         output += "\n" + "-" * 100 + "\n\n"
-
-                # ---------------- SYLLABUS ----------------
+ 
                 output += "COURSE SYLLABUS:\n\n"
 
                 section_pattern = re.compile(
@@ -309,19 +305,36 @@ def scrape_contact(driver):
 def main():
     driver = get_driver()
 
-    print(scrape_internship(driver))
+    output = ""
+
+    internship = scrape_internship(driver)
+    about = scrape_about(driver)
+    courses = scrape_courses(driver)
+    contact = scrape_contact(driver)
+
+    print(internship)
     print("=" * 100)
 
-    print(scrape_about(driver))
+    print(about)
     print("=" * 100)
 
-    print(scrape_courses(driver))
+    print(courses)
     print("=" * 100)
 
-    print(scrape_contact(driver))
+    print(contact)
     print("=" * 100)
+
+    output += internship + "\n" + "=" * 100 + "\n"
+    output += about + "\n" + "=" * 100 + "\n"
+    output += courses + "\n" + "=" * 100 + "\n"
+    output += contact + "\n" + "=" * 100 + "\n"
 
     driver.quit()
+
+    with open("datascraping.txt", "w", encoding="utf-8") as f:
+        f.write(output)
+
+    print("datascraping.txt created successfully")
 
 
 if __name__ == "__main__":
